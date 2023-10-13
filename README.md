@@ -1,21 +1,7 @@
 # PHP App Example
 
-## Requirements To Run Test
-1. Composer
-2. PHP7
-3. PHP Sockets Extensions Installed
+Comme expliqué en cours je n'ai pas pu installer et démarrer Docker sur mon PC
 
+La commande pour build le conteneur est en théorie mais je n'ai pas pu essayer si le conteneur se lance ou non :
 
-## Video Processing and RabbitMQ
-#### Overview
-The services shows a basic example of how to create a service for processing videos with RabbitMQ.
-
-#### How To Run
-1. Ensure RabbitMQ is installed and running locally
-3. Run `composer install` to install required packages
-4. Open up two tabs in your console
-5. In one tab, run `php server.php`
-6. In the other tab, run `php client.php`
-
-## Source
-<https://github.com/ProdigyView-Toolkit/Microservices-Examples-PHP>
+docker compose up --build -d
