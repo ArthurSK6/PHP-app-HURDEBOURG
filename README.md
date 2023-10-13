@@ -1,9 +1,21 @@
-# PHP-app-HURDEBOURG
+# PHP App Example
 
-Comme discuté en cours. Mon PC ne permet pas de démarrer Docker et il impossible de l'installer sur les PC de l'école.
-J'ai donc fait ce que j'ai pu et je n'ai malheureusement pas pu tester les différents fichiers ni le conteneur.
+## Requirements To Run Test
+1. Composer
+2. PHP7
+3. PHP Sockets Extensions Installed
 
-La commande pour build le contenaire :
-docker compose up --build -d
 
-Mais je ne peux pas la lancer sur mon ordinateur
+## Video Processing and RabbitMQ
+#### Overview
+The services shows a basic example of how to create a service for processing videos with RabbitMQ.
+
+#### How To Run
+1. Ensure RabbitMQ is installed and running locally
+3. Run `composer install` to install required packages
+4. Open up two tabs in your console
+5. In one tab, run `php server.php`
+6. In the other tab, run `php client.php`
+
+## Source
+<https://github.com/ProdigyView-Toolkit/Microservices-Examples-PHP>

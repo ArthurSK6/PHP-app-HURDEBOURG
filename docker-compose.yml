@@ -1,0 +1,10 @@
+version: "3"
+services:
+  php:
+    build:
+      context:
+      dockerfile: dockerfile
+      volumes:
+      - ..:/workspace:cached
+  rabbitmq:
+    image: rabbitmq:3.12.4-management
